@@ -38,7 +38,7 @@ static void sortData(int *pData, int count)
 
 int main(void)
 {
-	sortData(data, LENGTH);
+    sortData(data, LENGTH);
 
     printData(data, LENGTH);
 

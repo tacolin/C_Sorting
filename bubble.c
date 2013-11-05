@@ -4,9 +4,9 @@
 
 #define SWAP(a, b)\
 do{\
-	a ^= b;\
-	b ^= a;\
-	a ^= b;\
+    a ^= b;\
+    b ^= a;\
+    a ^= b;\
 }while(0)
 
 static int data[LENGTH] = {95, 45, 15, 78, 84, 51, 24, 12};
@@ -39,7 +39,7 @@ static void sortData(int *pData, int count)
 
 int main(void)
 {
-	sortData(data, LENGTH);
+    sortData(data, LENGTH);
 
     printData(data, LENGTH);
 
