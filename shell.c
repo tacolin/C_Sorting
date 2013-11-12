@@ -18,9 +18,8 @@ static void sortData(int *pData, int count)
     // shell sort
     int i, j, gap, temp;
     
-    for (gap = count/2 ; gap >0; gap /= 2)
+    for (gap = count/2 ; gap>0 ; gap /= 2 )
     {
-        printf("gap = %d\n", gap);
         for (i=gap; i<count; i++)
         {
             temp = pData[i];
@@ -37,9 +36,6 @@ static void sortData(int *pData, int count)
             }
             pData[j] = temp;
         }
-
-        printData(data, LENGTH);
-        printf("\n");
     }
         
 }
