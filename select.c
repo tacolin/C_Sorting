@@ -25,7 +25,7 @@ static void sortData(int *pData, int count)
     // select sort
     int i, j, minIdx;
 
-    for (i=0; i<7; i++)
+    for (i=0; i<count-1; i++)
     {
         minIdx = i;
 
